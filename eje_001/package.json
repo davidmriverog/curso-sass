@@ -1,0 +1,14 @@
+{
+  "name": "eje_001",
+  "version": "1.0.0",
+  "description": "Ejercicio nro 1, sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Rivero",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
