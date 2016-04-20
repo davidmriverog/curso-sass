@@ -1,0 +1,50 @@
+// attrs
+$color-primario: #0074D9
+
+*
+  margin: 0
+  padding: 0
+
+body
+  background: #001F3F
+  color: #111
+  
+a:hover
+  text-decoration: underline
+// container
+.container
+  width: 90%
+  max-width: 900px
+  margin: 2em auto
+
+// header
+header
+  margin-bottom: 1.5em
+  nav
+    // estilos del nav.
+    a
+      // estilos del href a
+      padding: 1em
+      color: #FFF
+      text-decoration: none
+      background: $color-primario
+      display: inline-block
+      margin-right: 1em
+      border-radius: 5px
+      // le indicamos al elemento a href que tenga un hover
+      &:hover
+        //estilos
+        background: #FF851B
+        text-decoration: none
+
+// main article
+.main
+  // estilos de article
+  article
+    padding: 1.5em
+    background: #FFF
+    margin-bottom: 1.5em
+    box-shadow: 5px 5px 2px #000
+    // estilos de h2
+    h2
+      color: $color-primario 
